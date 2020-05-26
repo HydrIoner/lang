@@ -1,5 +1,5 @@
-#include "include.h"
-#include "helpers/stringHelper.h"
+#include "include.hpp"
+#include "helpers/stringHelper.hpp"
 using namespace std;
 int main(int argc, char const* argv[]) {
 	if (argc == 1) {
