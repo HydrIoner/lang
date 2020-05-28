@@ -1,7 +1,8 @@
-﻿# CMakeList.txt: 顶层 CMake 项目文件，在此处执行全局配置
+# CMakeList.txt: 顶层 CMake 项目文件，在此处执行全局配置
 # 并包含子项目。
 #
 cmake_minimum_required (VERSION 3.8)
+set(CMAKE_CXX_STANDARD 17)
 set(lang_VERSION_MAJOR 1)
 set(lang_VERSION_MINOR 0)
 set(lang_VERSION_PATCH 0)
